@@ -1,0 +1,107 @@
+body {
+    background-color: #FFDDE7;
+    font-family: Verdana;
+  }
+  
+#title,
+#description,
+#instructions {
+    text-align: center;
+}
+
+.group {
+    margin: 5px 25px;
+    /* margin-top: 10px; */
+}
+
+.block {
+    display: block;
+}
+.text-label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+.req {
+    color: #FF0000;
+}
+
+#description {
+    font-size: 1.3rem;
+}
+
+#instructions {
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.tip {
+    font-size: 0.95rem;
+}
+
+form {
+    width: 40%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #FF91AF;
+    border-radius: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="submit"],
+textarea,
+select {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label {
+    padding: 5px 0px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="submit"],
+select {
+    height: 2.375rem;
+}
+
+input[type="submit"] {
+    background-color: #04AA6D;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+input,
+select,
+textarea {
+    font-size: inherit;
+    font-family: inherit;
+    border-radius: 5px;
+    border: none;
+    padding: 4px 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 3px 0px;
+}
+
+fieldset, 
+legend {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    border: none;
+    margin-top: 15px;
+}
+
+textarea {
+    min-height: 150px;
+}
